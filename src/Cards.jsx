@@ -46,7 +46,7 @@ const Cards = ({product,handleCart}) => {
     
    </div>
    <div>
-        <button onClick={(e) =>handleCart(product)} className='btn  btn-accent'>Want to Cook</button>
+        <button onClick={() =>handleCart(product)} className='btn  btn-accent'>Want to Cook</button>
         <ToastContainer/>
        
     </div>
